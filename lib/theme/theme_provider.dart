@@ -1,0 +1,14 @@
+import '../theme/freewall_theme.dart';
+import 'package:flutter/material.dart';
+
+class ThemeProvider extends ChangeNotifier {
+  ThemeData _currentTheme = FreeWallTheme.dark();
+
+  ThemeData get currentTheme => _currentTheme;
+
+  void toggleTheme() {
+    _currentTheme =
+        _currentTheme == FreeWallTheme.dark() ? FreeWallTheme.light() : FreeWallTheme.dark();
+    notifyListeners();
+  }
+}
