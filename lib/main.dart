@@ -9,7 +9,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
   await FlutterDownloader.initialize(
-    debug: true, // optional: set to false to disable printing logs to console (default: true)
+    debug: false, // optional: set to false to disable printing logs to console (default: true)
     ignoreSsl: true, // option: set to false to disable working with http links (default: false)
   );
   runApp(
