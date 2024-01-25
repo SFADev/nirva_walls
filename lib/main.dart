@@ -84,7 +84,9 @@ class _FreeWallState extends State<FreeWall> {
               items: const [
                 BottomNavigationBarItem(
                   label: 'Home',
-                  icon: ImageIcon(AssetImage('lib/assets/customIcons/home.png',)),
+                  icon: ImageIcon(AssetImage(
+                    'lib/assets/customIcons/home.png',
+                  )),
                 ),
                 BottomNavigationBarItem(
                   label: 'Category',
