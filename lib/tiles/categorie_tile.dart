@@ -32,7 +32,7 @@ class CategorieTile extends StatelessWidget {
         width: screenWidth * 0.4,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8.0),
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
           boxShadow: [
             BoxShadow(
               color: Theme.of(context).colorScheme.shadow,

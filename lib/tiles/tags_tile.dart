@@ -29,7 +29,7 @@ class TagsTile extends StatelessWidget {
         margin: const EdgeInsets.only(right: 8.0, left: 8.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8.0),
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
           border: Border.all(
             color: Theme.of(context).colorScheme.secondary,
           ),

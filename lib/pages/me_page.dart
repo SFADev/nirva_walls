@@ -62,8 +62,8 @@ class _MePageState extends State<MePage> {
                   ),
                 ),
                 trailing: Switch(
-                  trackColor: MaterialStateProperty.all(Theme.of(context).colorScheme.background),
-                  trackOutlineColor: MaterialStateProperty.all(Colors.deepPurpleAccent),
+                  trackColor: WidgetStateProperty.all(Theme.of(context).colorScheme.surface),
+                  trackOutlineColor: WidgetStateProperty.all(Colors.deepPurpleAccent),
                   activeColor: const Color.fromARGB(255, 255, 102, 133),
                   inactiveThumbColor: Colors.deepPurple,
                   value: onORoff,

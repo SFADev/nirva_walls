@@ -109,7 +109,7 @@ class FullImgPageState extends State<FullImgPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: Stack(
         children: <Widget>[
           Hero(
@@ -122,7 +122,7 @@ class FullImgPageState extends State<FullImgPage> {
                   : CachedNetworkImage(
                       imageUrl: widget.imgPathview,
                       placeholder: (context, url) => Container(
-                        color: Theme.of(context).colorScheme.background,
+                        color: Theme.of(context).colorScheme.surface,
                       ),
                       fit: BoxFit.cover,
                     ),

@@ -64,7 +64,7 @@ class FreeWallTheme {
       brightness: Brightness.light,
       // colorscheme
       colorScheme: ColorScheme.light(
-        background: Colors.white,
+        surface: Colors.white,
         primary: Colors.grey[300]!,
         onPrimary: Colors.grey[100]!,
         secondary: Colors.grey[200]!,
@@ -98,7 +98,7 @@ class FreeWallTheme {
       brightness: Brightness.dark,
       // colorscheme
       colorScheme: ColorScheme.dark(
-        background: Colors.grey[900]!,
+        surface: Colors.grey[900]!,
         primary: Colors.grey[850]!,
         onPrimary: Colors.grey[700]!,
         secondary: Colors.grey[800]!,

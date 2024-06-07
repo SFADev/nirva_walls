@@ -279,7 +279,7 @@ class _HomePageState extends State<HomePage> {
         //wallpapers in the home page
         body: LiquidPullToRefresh(
           color: Theme.of(context).colorScheme.primary,
-          backgroundColor: Theme.of(context).colorScheme.background,
+          backgroundColor: Theme.of(context).colorScheme.surface,
           child: isConnected
               ? wallPapers(
                   photos,
@@ -303,7 +303,7 @@ class _HomePageState extends State<HomePage> {
         // floating action button to scroll to the top
         floatingActionButton: _isVisible
             ? FloatingActionButton(
-                backgroundColor: Theme.of(context).colorScheme.background,
+                backgroundColor: Theme.of(context).colorScheme.surface,
                 onPressed: () {
                   if (_scrollController.hasClients) {
                     // Scroll to the top

@@ -24,7 +24,7 @@ class CollectionsTile extends StatelessWidget {
       },
       child: Container(
         decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
           borderRadius: BorderRadius.circular(8),
           border: Border.all(
             color: Theme.of(context).colorScheme.secondary,
