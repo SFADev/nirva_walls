@@ -1,6 +1,6 @@
 # nirva_walls
 
-A new Flutter project.for downloading wallpapers 
+A new Flutter project for downloading wallpapers 
 
 ## Getting Started
 
